@@ -359,7 +359,7 @@ void musicFile_Key_Listen(int folderSelec){
 			int playOptions = 0;
 			bool remainLooping = true;
 			while(remainLooping){
-				//play song and return integer value to playOptions
+				//play song and return integer value to determine to play next or previous song
 				playOptions = play(testList->array[folderSelec], musicFiles.array[fileNum]);
 
 				switch(playOptions){
